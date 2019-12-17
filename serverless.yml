@@ -1,0 +1,15 @@
+service: weather-chrome-extention
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: ap-northeast-2
+
+functions:
+  weather:
+    handler: handler.weather
+    events:
+      - http:
+          path: weather
+          method: get
+          cors: true
