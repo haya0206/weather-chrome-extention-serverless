@@ -1,8 +1,6 @@
-# weather-chrome-extention 🌙
+# weather-chrome-extention-serverless 🌙
 
-The Extention icon is current weather! ☀️
-
-![screenshot](screenshot.png)
+weather-chrome-extention-serverless
 
 ## Contributing
 
